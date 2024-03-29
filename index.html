@@ -3,44 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StreamIt - Your Entertainment Hub</title>
-  <link rel="stylesheet" href="style.css"> </head>
+  <title>netbox</title>
+  <link rel="stylesheet" href="index.css">
+</head>
 <body>
-  <header>
-    <h1>StreamIt</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="./About/about.html">About Us</a></li>
-        <li><a href="./Products/products.html">Movies & Shows</a></li>
-        <li><a href="./Contact/contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav class="navbar">
+    <ul class="nav-list">
+      <div class="logo">
+        <a href="#"> <img src="Assets/logo2.jpg"></a>
+      </div>
+      <li><a href="./Home/home.html">Home</a></li>
+      <li>
+        <a href="./Products/products.html">Services</a> 
+        <ul class="dropdown">
+         <li><a href="./Products/DSA/dsa.html">DSA</a></li>
+          <li><a href="./Products/CN/cn.html">CN</a></li>
+        </ul>
+      </li>
 
-  <section class="hero">
-    <h2>Welcome to StreamIt!</h2>
-    <p>Watch thousands of movies, shows, documentaries, and more.</p>
-    <a href="#">Start Free Trial</a>
-    <a href="#">Learn More</a>
-  </section>
-
-  <section class="content-section">
-    <h2>Popular Categories</h2>
-    <ul class="category-list">
-      <li><a href="#">Action</a></li>
-      <li><a href="#">Comedy</a></li>
-      <li><a href="#">Drama</a></li>
-      <li><a href="#">Thriller</a></li>
+      <li><a href="./Contact/contact.html">Contact us</a></li>
     </ul>
-  </section>
+    <div class="rightNav">
+      <input type="text" name="search" id="search">
+      <button class="btn btn-sm">search</button>
+    </div>
+  </nav>
 
-  <section class="content-section">
-    <h2>New Releases</h2>
-    </section>
+  <section class="background firstSection">
+    <div class="box-main">
+        <div class="firstHalf">
+            <p class="text-big">The Future of Education is here</p>
+            <p class="text-small">In this world of 7 billion people we need to educate all of them. This is the
+                future of an educated world and we are proud to say that the Future of Education is here</p>
+            <div class="buttons">
+                <button class="btn">Subscribe</button>
+                <button class="btn">Watch Video</button>
 
-  <footer>
-    <p>&copy; StreamIt 2024</p>
-  </footer>
-</body>
+            </div>
+        </div>
+
+        <div class="secondHalf">
+            <img src="./Assets/cs.jpeg" alt="Laptop Image">
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="paras">
+    <p class="sectionTag text-big">The end of your search is here</p>
+    <p class="sectionSubTag text-small">ducation is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits.
+    Educational methods include teaching, training, storytelling, discussion and directed research. Education frequently
+    takes place under the guidance of educators, however learners can also educate themselves.[1] Education can take place
+    in formal or informal settings and any experience that has a formative effect on the way one thinks, feels, or acts may
+    be considered educational. The methodology of teaching is called pedagogy.education in zambia </p>
+    </div>
+    <div class="thumbnail">
+        <img src="https://source.unsplash.com/900x900/?coding,apple" alt="laptop image" class="imgFluid">
+    </div>
+</section>
+
+  </body>
 </html>

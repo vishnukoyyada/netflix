@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 2rem;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style: disc;
+    padding-left: 1rem;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 1rem;
+  }
+  
+  #roadmap {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #roadmap text {
+    font-family: sans-serif;
+  }
+  
