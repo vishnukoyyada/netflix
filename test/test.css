@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .btn {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ddd;
+    position: relative;  /* Required for the play icon */
+  }
+  
+  .play-icon {
+    font-size: 24px;
+    position: absolute;  /* Positions the icon inside the button */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /* Centers the icon within the button */
+  }
+  
+  #videoPlayer {
+    position: fixed;  /* Makes the video stay in place when scrolling */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /* Centers the video horizontally and vertically */
+    width: 300px;  /* Adjust width for mini-mode size */
+    z-index: 10;  /* Ensures the video appears on top of other elements */
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.5;  /* Set initial opacity for a subtle effect */
+  }
+  
+  .close-btn:hover {
+    opacity: 1;  /* Increase opacity on hover for better visibility */
+  }
+  
