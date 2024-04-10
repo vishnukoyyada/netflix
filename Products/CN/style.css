@@ -44,6 +44,7 @@ img {
 }
 
 .slider-item {
+  text-decoration: none;
   padding: 1rem;
   cursor: pointer;
   border-bottom: 1px solid #ddd;
@@ -57,3 +58,8 @@ img {
   flex: 1;
 }
 
+
+.slider-item a {
+  text-decoration: none;  /* Remove underline from links */
+  color: inherit;  /* Inherit text color from parent element */
+}
